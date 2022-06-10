@@ -114,7 +114,7 @@ const Browser: React.FC<BrowserProps> = (props) => {
                     onClick={() => send('OPEN_UPLOAD')}
                   />
                 )}
-                <Tooltip
+                {/* <Tooltip
                   content={
                     <Box padding={3}>
                       <Text>Plugin settings</Text>
@@ -128,7 +128,7 @@ const Browser: React.FC<BrowserProps> = (props) => {
                     fontSize={2}
                     onClick={() => send('OPEN_SETTINGS')}
                   />
-                </Tooltip>
+                </Tooltip> */}
               </Inline>
             </Flex>
             {state.context.searchTerm ? (
